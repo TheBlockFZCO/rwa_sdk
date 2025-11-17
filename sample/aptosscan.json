@@ -1,0 +1,22 @@
+{
+    "success": true,
+    "data": {
+      "coin_id": "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b",
+      "name": "Tether USD",
+      "symbol": "USDt",
+      "decimals": 6,
+      "current_price": 0.99978161,
+      "current_num_holder": 610005,
+      "total_supply": 1129955433.45712,
+      "logo_url": "https://assets.panora.exchange/tokens/aptos/USDT.svg",
+      "project_url": "https://tether.to",
+      "creator_address": "0xf73e887a8754f540ee6e1a93bdc6dde2af69fc7ca5de32013e89dd44244473cb",
+      "coin_standard": "v2",
+      "reputation": "ok",
+      "isFungibleAsset": true,
+      "address": "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b"
+    },
+    "metadata": {
+  
+    }
+  }

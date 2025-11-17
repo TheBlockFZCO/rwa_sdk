@@ -1,0 +1,74 @@
+{
+  "name": "the-block-indexer-sdk",
+  "version": "0.1.0",
+  "description": "SDK for building indexers on The Block.",
+  "keywords": [
+    "sdk",
+    "indexer",
+    "blockchain",
+    "the-block"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rimraf dist",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run typecheck"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "format": [
+      "esm",
+      "cjs"
+    ],
+    "dts": true,
+    "sourcemap": true,
+    "clean": true,
+    "minify": false,
+    "treeshake": true,
+    "target": "es2020"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@covalenthq/client-sdk": "^2.3.4",
+    "viem": "^2.38.3"
+  }
+}

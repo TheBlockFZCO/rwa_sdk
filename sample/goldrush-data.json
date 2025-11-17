@@ -1,0 +1,118 @@
+{
+    "data": [
+      {
+        "contract_decimals": 18,
+        "contract_name": "First Digital USD",
+        "contract_ticker_symbol": "FDUSD",
+        "contract_address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+        "supports_erc": [
+          "erc20"
+        ],
+        "logo_url": "https://logos.covalenthq.com/tokens/56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png",
+        "update_at": "2025-10-17T09:43:54.682477327Z",
+        "quote_currency": "USD",
+        "logo_urls": {
+          "token_logo_url": "https://logos.covalenthq.com/tokens/56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png",
+          "protocol_logo_url": null,
+          "chain_logo_url": "https://www.datocms-assets.com/86369/1670003808-binance-smart-chain-icon-white.svg"
+        },
+        "prices": [
+          {
+            "contract_metadata": {
+              "contract_decimals": 18,
+              "contract_name": "First Digital USD",
+              "contract_ticker_symbol": "FDUSD",
+              "contract_address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+              "supports_erc": [
+                "erc20"
+              ],
+              "logo_url": "https://logos.covalenthq.com/tokens/56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+            },
+            "date": "2025-10-17",
+            "price": 0.99661624,
+            "pretty_price": "$1.00"
+          },
+          {
+            "contract_metadata": {
+              "contract_decimals": 18,
+              "contract_name": "First Digital USD",
+              "contract_ticker_symbol": "FDUSD",
+              "contract_address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+              "supports_erc": [
+                "erc20"
+              ],
+              "logo_url": "https://logos.covalenthq.com/tokens/56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+            },
+            "date": "2025-10-16",
+            "price": 0.99687845,
+            "pretty_price": "$1.00"
+          },
+          {
+            "contract_metadata": {
+              "contract_decimals": 18,
+              "contract_name": "First Digital USD",
+              "contract_ticker_symbol": "FDUSD",
+              "contract_address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+              "supports_erc": [
+                "erc20"
+              ],
+              "logo_url": "https://logos.covalenthq.com/tokens/56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+            },
+            "date": "2025-10-15",
+            "price": 0.997315,
+            "pretty_price": "$1.00"
+          }
+        ],
+        "items": [
+          {
+            "contract_metadata": {
+              "contract_decimals": 18,
+              "contract_name": "First Digital USD",
+              "contract_ticker_symbol": "FDUSD",
+              "contract_address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+              "supports_erc": [
+                "erc20"
+              ],
+              "logo_url": "https://logos.covalenthq.com/tokens/56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+            },
+            "date": "2025-10-17",
+            "price": 0.99661624,
+            "pretty_price": "$1.00"
+          },
+          {
+            "contract_metadata": {
+              "contract_decimals": 18,
+              "contract_name": "First Digital USD",
+              "contract_ticker_symbol": "FDUSD",
+              "contract_address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+              "supports_erc": [
+                "erc20"
+              ],
+              "logo_url": "https://logos.covalenthq.com/tokens/56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+            },
+            "date": "2025-10-16",
+            "price": 0.99687845,
+            "pretty_price": "$1.00"
+          },
+          {
+            "contract_metadata": {
+              "contract_decimals": 18,
+              "contract_name": "First Digital USD",
+              "contract_ticker_symbol": "FDUSD",
+              "contract_address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+              "supports_erc": [
+                "erc20"
+              ],
+              "logo_url": "https://logos.covalenthq.com/tokens/56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+            },
+            "date": "2025-10-15",
+            "price": 0.997315,
+            "pretty_price": "$1.00"
+          }
+        ]
+      }
+    ],
+    "error": false,
+    "error_message": null,
+    "error_code": null
+  }

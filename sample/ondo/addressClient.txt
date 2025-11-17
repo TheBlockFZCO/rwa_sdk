@@ -1,0 +1,5 @@
+{
+  bal: 0n,
+  isContract: true,
+  codehash: "0x9806c8207a455c012b2799be651ac0146d54866f92db90b502e5e2efa283bee9",
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "contract_decimals": 18,
+    "contract_name": "18SML0711SG",
+    "contract_ticker_symbol": "18SML711",
+    "contract_address": "0xfa08049ed4f27145767f2b7da08464fc0a7fad5d",
+    "supports_erc": [
+      "erc20"
+    ],
+    "logo_url": "https://logos.covalenthq.com/tokens/1/0xfa08049ed4f27145767f2b7da08464fc0a7fad5d.png",
+    "update_at": "2025-10-27T08:42:39.507Z",
+    "quote_currency": "USD",
+    "logo_urls": {
+      "token_logo_url": "https://logos.covalenthq.com/tokens/1/0xfa08049ed4f27145767f2b7da08464fc0a7fad5d.png",
+      "protocol_logo_url": null,
+      "chain_logo_url": "https://www.datocms-assets.com/86369/1669653891-eth.svg"
+    },
+    "prices": [
+      {
+        "contract_metadata": {
+          "contract_decimals": 18,
+          "contract_name": "18SML0711SG",
+          "contract_ticker_symbol": "18SML711",
+          "contract_address": "0xfa08049ed4f27145767f2b7da08464fc0a7fad5d",
+          "supports_erc": [
+            "erc20"
+          ],
+          "logo_url": "https://logos.covalenthq.com/tokens/1/0xfa08049ed4f27145767f2b7da08464fc0a7fad5d.png"
+        },
+        "date": "2025-10-27",
+        "price": null,
+        "pretty_price": null
+      }
+    ],
+    "items": [
+      {
+        "contract_metadata": {
+          "contract_decimals": 18,
+          "contract_name": "18SML0711SG",
+          "contract_ticker_symbol": "18SML711",
+          "contract_address": "0xfa08049ed4f27145767f2b7da08464fc0a7fad5d",
+          "supports_erc": [
+            "erc20"
+          ],
+          "logo_url": "https://logos.covalenthq.com/tokens/1/0xfa08049ed4f27145767f2b7da08464fc0a7fad5d.png"
+        },
+        "date": "2025-10-27T00:00:00.000Z",
+        "price": null,
+        "pretty_price": null
+      }
+    ]
+  }
+]

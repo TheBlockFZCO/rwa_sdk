@@ -1,0 +1,4 @@
+{
+  results: [],
+  nextOffset: 1n,
+}

@@ -1,0 +1,222 @@
+
+{
+	"AddressIndexer": {
+		"description": "Address-level read helpers (from contracts/standards/Account/AddressIndexer.sol)",
+		"fields": {
+			"balance": {
+				"note": "** current ETH balance of the address (changes frequently)",
+				"example": "123456789000000000000",
+				"marker": "**"
+			},
+			"isContractAddress": {
+				"note": "* whether the address contains contract code (rarely changes)",
+				"example": true,
+				"marker": "*"
+			},
+			"codeHash": {
+				"note": "*** extcodehash of the account (relative to the address's code; depends on * and ** and on-chain code)",
+				"example": "0x0000000000000000000000000000000000000000000000000000000000000000",
+				"marker": "***"
+			}
+		}
+	},
+    "ERC20Indexer": {
+        "description": "ERC-20 read helpers (from contracts/standards/ERC20/ERC20Indexer.sol)",
+        "fields": {
+            "name": {
+                "note": "* token name (metadata; rarely changes)",
+                "example": "MockToken",
+                "marker": "*"
+            },
+            "symbol": {
+                "note": "* token symbol (metadata; rarely changes)",
+                "example": "MOCK",
+                "marker": "*"
+            },
+            "decimals": {
+                "note": "* token decimals (metadata; rarely changes)",
+                "example": 18,
+                "marker": "*"
+            },
+            "totalSupply": {
+                "note": "** total supply (may change on mint/burn)",
+                "example": "1000000000000000000000000",
+                "marker": "**"
+            },
+            "balanceOf": {
+                "note": "** balance of an account for the token (changes frequently)",
+                "example": "1000000000000000000000",
+                "marker": "**"
+            },
+            "allowance": {
+                "note": "** allowance from owner to spender (changes frequently)",
+                "example": "0",
+                "marker": "**"
+            },
+            "get": {
+                "note": "*** aggregated get(token, owner, spender) returning [name, symbol, decimals, totalSupply, balance, allowance] (derived/relative)",
+                "marker": "***"
+            },
+            "getBatch": {
+                "note": "*** batch variant returning arrays for the same fields above (derived/relative)",
+                "marker": "***"
+            }
+        }
+    },
+    "UniswapV2Indexer": {
+        "description": "Uniswap V2 pair discovery and pricing (from contracts/standards/DEX/UniswapV2Indexer.sol)",
+        "fields": {
+            "findPairsForTokenInFactory": {
+                "note": "*** scan factory allPairs[offset:offset+limit) and return pairs including token; outputs (results PairView[], nextOffset, totalPairs)",
+                "example": {
+                    "results": [
+                        {
+                            "pair": "0x0000000000000000000000000000000000000000",
+                            "token0": "0x0000000000000000000000000000000000000000",
+                            "token1": "0x0000000000000000000000000000000000000000",
+                            "reserve0": "1234567890",
+                            "reserve1": "987654321",
+                            "price0": "800000000000000000",
+                            "price1": "1250000000000000000"
+                        }
+                    ],
+                    "nextOffset": 100,
+                    "totalPairs": 50000
+                },
+                "marker": "***"
+            },
+            "findPairsForTokenAgainstBases": {
+                "note": "*** check getPair(token,bases[i]) over [offset:offset+limit); outputs (results PairView[], nextOffset)",
+                "example": {
+                    "results": [
+                        {
+                            "pair": "0x0000000000000000000000000000000000000000",
+                            "token0": "0x0000000000000000000000000000000000000000",
+                            "token1": "0x0000000000000000000000000000000000000000",
+                            "reserve0": "123",
+                            "reserve1": "456",
+                            "price0": "3700000000000000000",
+                            "price1": "270000000000000000"
+                        }
+                    ],
+                    "nextOffset": 10
+                },
+                "marker": "***"
+            },
+            "findPair": {
+                "note": "*** direct getPair(tokenA, tokenB); outputs (found, PairView)",
+                "example": {
+                    "found": true,
+                    "view": {
+                        "pair": "0x0000000000000000000000000000000000000000",
+                        "token0": "0x0000000000000000000000000000000000000000",
+                        "token1": "0x0000000000000000000000000000000000000000",
+                        "reserve0": "1000",
+                        "reserve1": "2000",
+                        "price0": "2000000000000000000",
+                        "price1": "500000000000000000"
+                    }
+                },
+                "marker": "***"
+            },
+            "quoteTokenAgainstBases": {
+                "note": "*** quote token in each base over [offset:offset+limit); outputs (BaseQuote[] quotes, nextOffset)",
+                "example": {
+                    "quotes": [
+                        {
+                            "base": "0x0000000000000000000000000000000000000000",
+                            "pair": "0x0000000000000000000000000000000000000000",
+                            "priceTokenInBase": "1230000000000000000",
+                            "priceBaseInToken": "813008130081300813",
+                            "reserveToken": "1000000000000000000000",
+                            "reserveBase": "1230000000000000000000"
+                        }
+                    ],
+                    "nextOffset": 5
+                },
+                "marker": "***"
+            },
+            "PairView": {
+                "note": "structure returned by the discovery functions",
+                "example": {
+                    "pair": "0x...",
+                    "token0": "0x...",
+                    "token1": "0x...",
+                    "reserve0": "0",
+                    "reserve1": "0",
+                    "price0": "0",
+                    "price1": "0"
+                },
+                "markers": {
+                    "pair": "*",
+                    "token0": "*",
+                    "token1": "*",
+                    "reserve0": "**",
+                    "reserve1": "**",
+                    "price0": "***",
+                    "price1": "***"
+                }
+            },
+            "BaseQuote": {
+                "note": "structure returned by token-vs-base quotes",
+                "example": {
+                    "base": "0x...",
+                    "pair": "0x...",
+                    "priceTokenInBase": "0",
+                    "priceBaseInToken": "0",
+                    "reserveToken": "0",
+                    "reserveBase": "0"
+                },
+                "markers": {
+                    "base": "*",
+                    "pair": "*",
+                    "priceTokenInBase": "***",
+                    "priceBaseInToken": "***",
+                    "reserveToken": "**",
+                    "reserveBase": "**"
+                }
+            }
+        }
+    },
+    "CompositeData": {
+        "description": "Derived aggregates merging ERC20Indexer and UniswapV2Indexer outputs (and optionally AddressIndexer)",
+        "fields": {
+            "priceInBase": {
+                "note": "*** spot price of token in base units (1e18 scaled); derived from UniswapV2 reserves (PairView)",
+                "example": "2500000000000000000",
+                "marker": "***"
+            },
+            "marketCapInBase": {
+                "note": "*** market cap = (totalSupply / 10^decimals) * priceInBase; expressed in base units, 1e18 scaled",
+                "example": "2000000000000000000000000",
+                "dependsOn": [
+                    "ERC20Indexer.totalSupply",
+                    "ERC20Indexer.decimals",
+                    "CompositeData.priceInBase"
+                ],
+                "marker": "***"
+            },
+            "tokenLiquidityInBase": {
+                "note": "*** sum of token-side reserves across discovered pairs, valued in base via PairView prices; pagination window affects completeness",
+                "example": "1234500000000000000000",
+                "dependsOn": [
+                    "UniswapV2Indexer.findPairsForTokenInFactory"
+                ],
+                "marker": "***"
+            },
+            "snapshot": {
+                "note": "*** consolidated snapshot for a token vs a base at a given scan window",
+                "example": {
+                    "token": "0x0000000000000000000000000000000000000000",
+                    "base": "0x0000000000000000000000000000000000000000",
+                    "priceInBase": "2500000000000000000",
+                    "decimals": 18,
+                    "totalSupply": "1000000000000000000000000",
+                    "marketCapInBase": "2500000000000000000000000",
+                    "pairsCountConsidered": 42
+                },
+                "marker": "***"
+            }
+        }
+    }
+}

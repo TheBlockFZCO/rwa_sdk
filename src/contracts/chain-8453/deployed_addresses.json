@@ -1,0 +1,8 @@
+{
+  "UniswapV2IndexerModule#UniswapV2Indexer": "0xea82578581E549a21DfF94d6c8FE7ac9C6551432",
+  "UniswapV2IndexerModule#IndexerProxy": "0x59079c5C69C8A422c8615499Eeeead34684b8673",
+  "ERC20IndexerModule#ERC20Indexer": "0x6AfD39E3309D68bD6D65d1be911532d0BF4d49A9",
+  "ERC20IndexerModule#IndexerProxy": "0xAc97DFc435F57bC09BB5F3b895b0249f1EBC3956",
+  "AddressIndexerModule#AddressIndexer": "0x03D4d02E230b6027209c3Ff0C72a13b88AF43371",
+  "AddressIndexerModule#IndexerProxy": "0xa04FbEFAB0e19a9720eDEf9bb06E53dF4e7173a1"
+}

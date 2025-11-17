@@ -1,0 +1,29 @@
+{
+  "tokenName": "NVIDIA (Ondo Tokenized)",
+  "tokenSymbol": "NVDAon",
+  "tokenLogo": null,
+  "tokenDecimals": "18",
+  "nativePrice": {
+    "value": "44174423287554630",
+    "decimals": 18,
+    "name": "Ether",
+    "symbol": "ETH",
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+  },
+  "usdPrice": 187.14057557516014,
+  "usdPriceFormatted": "187.140575575160155021",
+  "exchangeName": "Uniswap v3",
+  "exchangeAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+  "tokenAddress": "0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee",
+  "priceLastChangedAtBlock": "23667161",
+  "blockTimestamp": "1761548495000",
+  "possibleSpam": false,
+  "verifiedContract": true,
+  "pairAddress": "0xf5294094bce435bfbd0ec488be5c462aaf32bc7a",
+  "pairTotalLiquidityUsd": "10998.35",
+  "securityScore": null,
+  "usdPrice24hr": 184.74846295275,
+  "usdPrice24hrUsdChange": 2.3921126224099964,
+  "usdPrice24hrPercentChange": 1.294794329640397,
+  "24hrPercentChange": "1.294794329640397"
+}

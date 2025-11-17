@@ -1,0 +1,2097 @@
+{
+  "schemaVersion": "1.0.0",
+  "pairs": [
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/bcddhonby65iduz3ev3c9v5xjnkzyu5e56krfhpbm4t9",
+      "pairAddress": "BCDdHonby65iduz3Ev3c9v5XjNkzyu5e56KRFHpBM4T9",
+      "labels": [
+        "CLMM"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USD Coin",
+        "symbol": "USDC"
+      },
+      "priceNative": "0.9993",
+      "priceUsd": "0.9993",
+      "txns": {
+        "m5": {
+          "buys": 10,
+          "sells": 1
+        },
+        "h1": {
+          "buys": 169,
+          "sells": 12
+        },
+        "h6": {
+          "buys": 514,
+          "sells": 635
+        },
+        "h24": {
+          "buys": 3646,
+          "sells": 3770
+        }
+      },
+      "volume": {
+        "h24": 3212583,
+        "h6": 436907.66,
+        "h1": 36720.83,
+        "m5": 5814.59
+      },
+      "priceChange": {
+        "h24": 0.05
+      },
+      "liquidity": {
+        "usd": 15064095.04,
+        "base": 10624607,
+        "quote": 4446007
+      },
+      "fdv": 157903102,
+      "marketCap": 2987043662,
+      "pairCreatedAt": 1756577941000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "orca",
+      "url": "https://dexscreener.com/solana/4qpdaaub5ourfh7eomqoevvtjqeh9d4svz48suk7jvrk",
+      "pairAddress": "4qpDaAUb5oUrFH7EomqoEvvTjQeh9D4svZ48sUk7JVrk",
+      "labels": [
+        "wp"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "name": "USDT",
+        "symbol": "USDT"
+      },
+      "priceNative": "0.9992",
+      "priceUsd": "0.9992",
+      "txns": {
+        "m5": {
+          "buys": 1,
+          "sells": 1
+        },
+        "h1": {
+          "buys": 43,
+          "sells": 10
+        },
+        "h6": {
+          "buys": 247,
+          "sells": 188
+        },
+        "h24": {
+          "buys": 1749,
+          "sells": 1558
+        }
+      },
+      "volume": {
+        "h24": 1090162.99,
+        "h6": 190148.98,
+        "h1": 9786.18,
+        "m5": 28.65
+      },
+      "priceChange": {
+        "m5": -0.02,
+        "h1": 0.01,
+        "h6": -0.01,
+        "h24": 0.02
+      },
+      "liquidity": {
+        "usd": 164953.61,
+        "base": 60212,
+        "quote": 104787
+      },
+      "fdv": 157878040,
+      "marketCap": 2986569557,
+      "pairCreatedAt": 1757704085000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "orca",
+      "url": "https://dexscreener.com/solana/f9snvfmt1qxgrmnmdbp6xzntc6abxyzvxv4b8tez3nfn",
+      "pairAddress": "F9SNVFmT1qxGrMnMDBp6xZNTC6AbXYzvXV4b8tez3NfN",
+      "labels": [
+        "wp"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USD Coin",
+        "symbol": "USDC"
+      },
+      "priceNative": "0.9994",
+      "priceUsd": "0.9994",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 7,
+          "sells": 15
+        },
+        "h6": {
+          "buys": 91,
+          "sells": 207
+        },
+        "h24": {
+          "buys": 1158,
+          "sells": 1237
+        }
+      },
+      "volume": {
+        "h24": 197125.61,
+        "h6": 23405.27,
+        "h1": 2180.53,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": 0.02,
+        "h6": 0.02,
+        "h24": 0.07
+      },
+      "liquidity": {
+        "usd": 41713.94,
+        "base": 7069.5496,
+        "quote": 34648
+      },
+      "fdv": 157917990,
+      "marketCap": 2987325299,
+      "pairCreatedAt": 1756581297000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "url": "https://dexscreener.com/solana/7m6u5dmcqf4mxfn344d9m9tkcnf35dnjqabrbqawvsv2",
+      "pairAddress": "7M6U5dMcQF4MxfN344D9M9tKCnf35DnJqABrbQawvSv2",
+      "labels": [
+        "DLMM"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USD Coin",
+        "symbol": "USDC"
+      },
+      "priceNative": "0.9989",
+      "priceUsd": "0.9989",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 0,
+          "sells": 2
+        },
+        "h24": {
+          "buys": 8,
+          "sells": 4
+        }
+      },
+      "volume": {
+        "h24": 728.9,
+        "h6": 2.43,
+        "h1": 0,
+        "m5": 0
+      },
+      "priceChange": {
+        "h6": -0.14,
+        "h24": -0.1
+      },
+      "liquidity": {
+        "usd": 38802.5,
+        "base": 19353,
+        "quote": 19468
+      },
+      "fdv": 157841966,
+      "marketCap": 2985887157,
+      "pairCreatedAt": 1756579173000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/jaubcuvbtt6efwbpeavqzzgxkmzqvtnaxzwvrkcqxx9l",
+      "pairAddress": "JAUBcUVbTT6EfwbPeaVqZzgxkMzQVTnaxzwvRkcQXx9L",
+      "labels": [
+        "CLMM"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "name": "USDT",
+        "symbol": "USDT"
+      },
+      "priceNative": "0.9990",
+      "priceUsd": "0.9990",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 7,
+          "sells": 8
+        },
+        "h24": {
+          "buys": 131,
+          "sells": 34
+        }
+      },
+      "volume": {
+        "h24": 21441.65,
+        "h6": 1618.66,
+        "h1": 0,
+        "m5": 0
+      },
+      "priceChange": {
+        "h6": -0.01,
+        "h24": 0.02
+      },
+      "liquidity": {
+        "usd": 28844.97,
+        "base": 16486,
+        "quote": 12375
+      },
+      "fdv": 157844116,
+      "marketCap": 2985927815,
+      "pairCreatedAt": 1757056324000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "url": "https://dexscreener.com/solana/7hzq3qmsocjjluhrw39r9xqznzt4bmbbnvnsnvjextqa",
+      "pairAddress": "7hZQ3QmsocJJLuHrw39R9XqZNzt4BmBBNVNSnvJExtqA",
+      "labels": [
+        "DLMM"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USD Coin",
+        "symbol": "USDC"
+      },
+      "priceNative": "0.9992",
+      "priceUsd": "0.9992",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 12,
+          "sells": 16
+        },
+        "h6": {
+          "buys": 48,
+          "sells": 56
+        },
+        "h24": {
+          "buys": 510,
+          "sells": 467
+        }
+      },
+      "volume": {
+        "h24": 29197.01,
+        "h6": 4906.98,
+        "h1": 766.02,
+        "m5": 0
+      },
+      "priceChange": {
+        "h24": 0.06
+      },
+      "liquidity": {
+        "usd": 7227.12,
+        "base": 5730.1152,
+        "quote": 1501.06929
+      },
+      "fdv": 157888033,
+      "marketCap": 2986758587,
+      "pairCreatedAt": 1756574814000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "url": "https://dexscreener.com/solana/hepjpdsdhzckekazurudkmlmpyvsbhr1zltqcaa9eah9",
+      "pairAddress": "HepjpdsDHzcKEKazUruDkMLmPYVsBhr1ZLTQCaa9EAH9",
+      "labels": [
+        "DLMM"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "name": "USDT",
+        "symbol": "USDT"
+      },
+      "priceNative": "0.9993",
+      "priceUsd": "0.9993",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 2
+        },
+        "h1": {
+          "buys": 6,
+          "sells": 7
+        },
+        "h6": {
+          "buys": 62,
+          "sells": 80
+        },
+        "h24": {
+          "buys": 450,
+          "sells": 408
+        }
+      },
+      "volume": {
+        "h24": 40822.54,
+        "h6": 10894.32,
+        "h1": 714.01,
+        "m5": 27.9
+      },
+      "priceChange": {
+        "h6": 0.01,
+        "h24": 0.02
+      },
+      "liquidity": {
+        "usd": 4920.16,
+        "base": 2751.724,
+        "quote": 2170.3664
+      },
+      "fdv": 157889484,
+      "marketCap": 2986786035,
+      "pairCreatedAt": 1757860740000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "url": "https://dexscreener.com/solana/9cbmwfapznihryefwjfw3yqtum266szcsudvcvkwwapy",
+      "pairAddress": "9cBMwfapZniHryEfwJfw3yqTUM266SzcsUDvcvkWWAPY",
+      "labels": [
+        "DLMM"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USD Coin",
+        "symbol": "USDC"
+      },
+      "priceNative": "0.9895",
+      "priceUsd": "0.9895",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h24": {
+          "buys": 0,
+          "sells": 1
+        }
+      },
+      "volume": {
+        "h24": 20.06,
+        "h6": 0,
+        "h1": 0,
+        "m5": 0
+      },
+      "priceChange": {},
+      "liquidity": {
+        "usd": 3490.13,
+        "base": 2293.4557,
+        "quote": 1220.7529
+      },
+      "fdv": 156341867,
+      "marketCap": 2957509862,
+      "pairCreatedAt": 1756566527000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/drhvo7r72yh2ttb4xul9q6bvvqkspysveax9jknzspt8",
+      "pairAddress": "Drhvo7r72yH2TTb4xUL9q6BvvqKSpYsVeax9jknzSPT8",
+      "labels": [
+        "CLMM"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "name": "USD Coin",
+        "symbol": "USDC"
+      },
+      "priceNative": "0.9994",
+      "priceUsd": "0.9994",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 1,
+          "sells": 2
+        },
+        "h6": {
+          "buys": 3,
+          "sells": 8
+        },
+        "h24": {
+          "buys": 55,
+          "sells": 75
+        }
+      },
+      "volume": {
+        "h24": 728.51,
+        "h6": 75.43,
+        "h1": 18.85,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": 0.02,
+        "h24": 0.08
+      },
+      "liquidity": {
+        "usd": 164.72,
+        "base": 86.5094,
+        "quote": 78.2631
+      },
+      "fdv": 157913101,
+      "marketCap": 2987232805,
+      "pairCreatedAt": 1758755814000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "url": "https://dexscreener.com/solana/dsaauyx3ysx6ig3gw2qsayzm9g76bt1nxccgfvksoub4",
+      "pairAddress": "DSaaUyx3YsX6ig3gw2QSAYzm9G76bt1nXcCgfvKsouB4",
+      "labels": [
+        "DYN2"
+      ],
+      "baseToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "44sHXMkPeciUpqhecfCysVs7RcaxeM24VPMauQouBREV",
+        "name": "Larry Pink's Pool Party",
+        "symbol": "LPPP"
+      },
+      "priceNative": "7077.1130",
+      "priceUsd": "0.9694",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 1
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 1
+        },
+        "h6": {
+          "buys": 2,
+          "sells": 2
+        },
+        "h24": {
+          "buys": 8,
+          "sells": 18
+        }
+      },
+      "volume": {
+        "h24": 8.03,
+        "h6": 1.44,
+        "h1": 0.25,
+        "m5": 0.25
+      },
+      "priceChange": {
+        "m5": -3.56,
+        "h1": -3.56,
+        "h6": -7.67,
+        "h24": -7.27
+      },
+      "liquidity": {
+        "usd": 94.77,
+        "base": 49.01356,
+        "quote": 345022
+      },
+      "fdv": 170117929,
+      "marketCap": 2897484943,
+      "pairCreatedAt": 1760651852000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/6sekz73vph5afymqtzav6h5vaqqlz2c8wqecq6mhlqfk",
+      "pairAddress": "6sEkZ73vph5AFYmQTzaV6H5vAQQLZ2C8WqeCQ6MhLqFk",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
+        "name": "1 coin can change your life",
+        "symbol": "1"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.02761",
+      "priceUsd": "0.02761",
+      "txns": {
+        "m5": {
+          "buys": 12,
+          "sells": 8
+        },
+        "h1": {
+          "buys": 146,
+          "sells": 213
+        },
+        "h6": {
+          "buys": 1757,
+          "sells": 1505
+        },
+        "h24": {
+          "buys": 11955,
+          "sells": 13572
+        }
+      },
+      "volume": {
+        "h24": 8156223.92,
+        "h6": 567415.69,
+        "h1": 59737.57,
+        "m5": 1876.89
+      },
+      "priceChange": {
+        "m5": -0.16,
+        "h1": -0.19,
+        "h6": -5.99,
+        "h24": 80.4
+      },
+      "liquidity": {
+        "usd": 940897.29,
+        "base": 17034059,
+        "quote": 470448
+      },
+      "fdv": 27618116,
+      "marketCap": 27618116,
+      "pairCreatedAt": 1758148287000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk.png?key=7dfbc4",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk/header.png?key=7dfbc4",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://www.1co1n.com/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/1coinonsolana"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/5mkcc42j6cxrf4i1wzggrnujbledmtvsqtnkngwalw4p",
+      "pairAddress": "5mkCC42J6CxRf4i1wzggrnujbLedmtVsQtnkngwaLw4P",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "3wPQhXYqy861Nhoc4bahtpf7G3e89XCLfZ67ptEfZUSA",
+        "name": "VALOR",
+        "symbol": "VALOR"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.008759",
+      "priceUsd": "0.008759",
+      "txns": {
+        "m5": {
+          "buys": 8,
+          "sells": 2
+        },
+        "h1": {
+          "buys": 89,
+          "sells": 68
+        },
+        "h6": {
+          "buys": 655,
+          "sells": 473
+        },
+        "h24": {
+          "buys": 2918,
+          "sells": 2410
+        }
+      },
+      "volume": {
+        "h24": 1133898.56,
+        "h6": 233474.77,
+        "h1": 29317.47,
+        "m5": 4101.36
+      },
+      "priceChange": {
+        "m5": 0.73,
+        "h1": 1.29,
+        "h6": -2.66,
+        "h24": 0.77
+      },
+      "liquidity": {
+        "usd": 320349.01,
+        "base": 18286302,
+        "quote": 160174
+      },
+      "fdv": 8759262,
+      "marketCap": 8759262,
+      "pairCreatedAt": 1761085029000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/3wPQhXYqy861Nhoc4bahtpf7G3e89XCLfZ67ptEfZUSA.png?key=b12b4b",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3wPQhXYqy861Nhoc4bahtpf7G3e89XCLfZ67ptEfZUSA/header.png?key=b12b4b",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3wPQhXYqy861Nhoc4bahtpf7G3e89XCLfZ67ptEfZUSA?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://valoramericaneagle.com"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/valoramerica"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/ValorAmericaUSD1"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/9dqsbxd3tvs6wsspmvwhpa8fr3hfovrydc9bw87e85zp",
+      "pairAddress": "9dqsBXD3TVs6wSSpMVwhpA8Fr3hfovryDC9bW87e85Zp",
+      "baseToken": {
+        "address": "vEHiuRmd8WvCkswH8Xy4VXTEMXA7JScik47XZkDbonk",
+        "name": "Retarded Online Investment",
+        "symbol": "ROI"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.002443",
+      "priceUsd": "0.002443",
+      "txns": {
+        "m5": {
+          "buys": 12,
+          "sells": 7
+        },
+        "h1": {
+          "buys": 56,
+          "sells": 80
+        },
+        "h6": {
+          "buys": 757,
+          "sells": 907
+        },
+        "h24": {
+          "buys": 1899,
+          "sells": 2125
+        }
+      },
+      "volume": {
+        "h24": 1510170.44,
+        "h6": 570613.23,
+        "h1": 38602.8,
+        "m5": 9910.46
+      },
+      "priceChange": {
+        "m5": 5.51,
+        "h1": 3.62,
+        "h6": 34.01,
+        "h24": 3909
+      },
+      "liquidity": {
+        "usd": 163429.55,
+        "base": 32993105,
+        "quote": 82825
+      },
+      "fdv": 2443044,
+      "marketCap": 2443044,
+      "pairCreatedAt": 1762303320000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/vEHiuRmd8WvCkswH8Xy4VXTEMXA7JScik47XZkDbonk.png?key=37aa77",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/vEHiuRmd8WvCkswH8Xy4VXTEMXA7JScik47XZkDbonk/header.png?key=37aa77",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/vEHiuRmd8WvCkswH8Xy4VXTEMXA7JScik47XZkDbonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://roisorrana.com/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/ROIsorrana"
+          }
+        ]
+      },
+      "boosts": {
+        "active": 50
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/79zkjctkyy6gt92v2yfv9bzr7ehwh2yxfpkskpass24u",
+      "pairAddress": "79ZkjcTkyY6Gt92v2yFv9BzR7ehWh2yXFpKSkPaSS24u",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "87B6mb9KBjaF5NHrB3H33f7grdUHi4oWmMErjhZ5bonk",
+        "name": "Make memes great again",
+        "symbol": "MMGA"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.001088",
+      "priceUsd": "0.001088",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 2,
+          "sells": 1
+        },
+        "h6": {
+          "buys": 36,
+          "sells": 46
+        },
+        "h24": {
+          "buys": 418,
+          "sells": 384
+        }
+      },
+      "volume": {
+        "h24": 233243.83,
+        "h6": 21006.83,
+        "h1": 592.78,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": 0.31,
+        "h6": -8.88,
+        "h24": 55.98
+      },
+      "liquidity": {
+        "usd": 138400.41,
+        "base": 63568757,
+        "quote": 69200
+      },
+      "fdv": 1088588,
+      "marketCap": 1088588,
+      "pairCreatedAt": 1757949142000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/87B6mb9KBjaF5NHrB3H33f7grdUHi4oWmMErjhZ5bonk.png?key=7010cf",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/87B6mb9KBjaF5NHrB3H33f7grdUHi4oWmMErjhZ5bonk/header.png?key=7010cf",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/87B6mb9KBjaF5NHrB3H33f7grdUHi4oWmMErjhZ5bonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://makememesgreatagain.xyz"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/MMGAcoin__"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/5ux2hmjjmuwxynsisoicbqfd9mkos3uckqhdgqwprdsk",
+      "pairAddress": "5uX2hmJJMUwXynsisoiCbQfD9mkos3uCkqhDgQWPRDSk",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "632SvBrfaep51NGKnKtUHTR9J2T4uYGKEQkCgy42USA",
+        "name": "Burger",
+        "symbol": "BURGER"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.0007687",
+      "priceUsd": "0.0007687",
+      "txns": {
+        "m5": {
+          "buys": 5,
+          "sells": 1
+        },
+        "h1": {
+          "buys": 12,
+          "sells": 1
+        },
+        "h6": {
+          "buys": 25,
+          "sells": 17
+        },
+        "h24": {
+          "buys": 180,
+          "sells": 193
+        }
+      },
+      "volume": {
+        "h24": 60879.37,
+        "h6": 5362.15,
+        "h1": 1576,
+        "m5": 219.77
+      },
+      "priceChange": {
+        "m5": 0.91,
+        "h1": 7.2,
+        "h6": -5.78,
+        "h24": 14.47
+      },
+      "liquidity": {
+        "usd": 96766.01,
+        "base": 62939229,
+        "quote": 48383
+      },
+      "fdv": 768726,
+      "marketCap": 768726,
+      "pairCreatedAt": 1760053908000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/632SvBrfaep51NGKnKtUHTR9J2T4uYGKEQkCgy42USA.png?key=bca887",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/632SvBrfaep51NGKnKtUHTR9J2T4uYGKEQkCgy42USA/header.png?key=bca887",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/632SvBrfaep51NGKnKtUHTR9J2T4uYGKEQkCgy42USA?timestamp=1762345200000",
+        "websites": [],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/BurgerOnAmerica"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/BurgerOnUSD1"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/5jn7rnf7cdzcwsgqjmnszuux7gsrpwfjkkjhejhkgijc",
+      "pairAddress": "5JN7RNF7CDzcWSGqjMNszuuX7GsrpwfJkkjhEjHkgijC",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "354jgbb56NmBnyd647sPmj8S1md9cBeiCPPhT6pQbonk",
+        "name": "Sombrero Memes",
+        "symbol": "SOMBRERO"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.0001671",
+      "priceUsd": "0.0001671",
+      "txns": {
+        "m5": {
+          "buys": 4,
+          "sells": 3
+        },
+        "h1": {
+          "buys": 40,
+          "sells": 37
+        },
+        "h6": {
+          "buys": 49,
+          "sells": 53
+        },
+        "h24": {
+          "buys": 248,
+          "sells": 251
+        }
+      },
+      "volume": {
+        "h24": 66501.89,
+        "h6": 20370.3,
+        "h1": 18186.78,
+        "m5": 1021.85
+      },
+      "priceChange": {
+        "m5": 0.4,
+        "h1": -4.65,
+        "h6": -9.58,
+        "h24": 7.15
+      },
+      "liquidity": {
+        "usd": 61827.68,
+        "base": 184910969,
+        "quote": 30913
+      },
+      "fdv": 167182,
+      "marketCap": 167173,
+      "pairCreatedAt": 1759342446000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/354jgbb56NmBnyd647sPmj8S1md9cBeiCPPhT6pQbonk.png?key=313bbd",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/354jgbb56NmBnyd647sPmj8S1md9cBeiCPPhT6pQbonk/header.png?key=313bbd",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/354jgbb56NmBnyd647sPmj8S1md9cBeiCPPhT6pQbonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://sombreromemes.com/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/SombreroMemes"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/expsw7dqczvq3gyfvselk2lcx2x1etfrviejqlwztc3u",
+      "pairAddress": "Expsw7dqCZvQ3GyfVseLk2LcX2X1eTfrVieJqLWzTC3U",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "97sraAGszzEFY6AW8iuWfTceBQWa1RzuFRXryJqSbonk",
+        "name": "Hearing Things",
+        "symbol": "HEARING"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.0001058",
+      "priceUsd": "0.0001058",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 3,
+          "sells": 6
+        },
+        "h6": {
+          "buys": 16,
+          "sells": 16
+        },
+        "h24": {
+          "buys": 253,
+          "sells": 181
+        }
+      },
+      "volume": {
+        "h24": 46489.44,
+        "h6": 3544.31,
+        "h1": 356.72,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": -0.69,
+        "h6": -19.47,
+        "h24": 42.04
+      },
+      "liquidity": {
+        "usd": 38942.57,
+        "base": 183880279,
+        "quote": 19471
+      },
+      "fdv": 105891,
+      "marketCap": 105891,
+      "pairCreatedAt": 1758225769000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/97sraAGszzEFY6AW8iuWfTceBQWa1RzuFRXryJqSbonk.png?key=76ce1a",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/97sraAGszzEFY6AW8iuWfTceBQWa1RzuFRXryJqSbonk/header.png?key=76ce1a",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/97sraAGszzEFY6AW8iuWfTceBQWa1RzuFRXryJqSbonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://hearingthings.fun/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/HearingOnSol"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/7rivimqvtj8qugy6wugsuckvemtzvxijnespp9ycneap",
+      "pairAddress": "7riviMqVTj8qUgY6WuGsUcKveMtzVxiJNesPP9ycNeAP",
+      "labels": [
+        "CLMM"
+      ],
+      "baseToken": {
+        "address": "WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g",
+        "name": "World Liberty Financial",
+        "symbol": "WLFI"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.1166",
+      "priceUsd": "0.1166",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 5,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 28,
+          "sells": 35
+        },
+        "h24": {
+          "buys": 197,
+          "sells": 194
+        }
+      },
+      "volume": {
+        "h24": 1057.58,
+        "h6": 135.53,
+        "h1": 9.11,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": 0.72,
+        "h6": -1.97,
+        "h24": 6.25
+      },
+      "liquidity": {
+        "usd": 4692862.76,
+        "base": 40098481,
+        "quote": 13689
+      },
+      "fdv": 11669203288,
+      "marketCap": 3180200746,
+      "pairCreatedAt": 1756728026000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g.png?key=a7d4b4",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g/header.png?key=a7d4b4",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://worldlibertyfinancial.com/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/worldlibertyfi"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/defiant1s"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/5nwvqbxtgdbgvttgmdeaf5oqdzdn6brpciszdmh2u3fe",
+      "pairAddress": "5NwVQbxTgdbgvttGmdEAf5oqdzDN6bRPciszDmh2U3fE",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "8Aq4fWMgPqJbF3w8w8PnLDRVUAFe4mzsCvPKxAArbonk",
+        "name": "Real",
+        "symbol": "Real"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.006036",
+      "priceUsd": "0.006036",
+      "txns": {
+        "m5": {
+          "buys": 7,
+          "sells": 6
+        },
+        "h1": {
+          "buys": 86,
+          "sells": 80
+        },
+        "h6": {
+          "buys": 477,
+          "sells": 457
+        },
+        "h24": {
+          "buys": 1874,
+          "sells": 1842
+        }
+      },
+      "volume": {
+        "h24": 67822,
+        "h6": 11559.31,
+        "h1": 2390.27,
+        "m5": 309.93
+      },
+      "priceChange": {
+        "m5": 0.31,
+        "h1": 1.81,
+        "h6": 7.89,
+        "h24": -25.49
+      },
+      "liquidity": {
+        "usd": 280835.64,
+        "base": 23260327,
+        "quote": 140417
+      },
+      "fdv": 6036795,
+      "marketCap": 6036795,
+      "pairCreatedAt": 1758570269000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/8Aq4fWMgPqJbF3w8w8PnLDRVUAFe4mzsCvPKxAArbonk.png?key=3588fe",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8Aq4fWMgPqJbF3w8w8PnLDRVUAFe4mzsCvPKxAArbonk/header.png?key=3588fe",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8Aq4fWMgPqJbF3w8w8PnLDRVUAFe4mzsCvPKxAArbonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://realyn.gold/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/RealynProtocol"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/RealynProtocol"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "launchlab",
+      "url": "https://dexscreener.com/solana/mkv1ksacpqvjx4s8hyxzfchfdgrydw9tlfvjkxghp36",
+      "pairAddress": "MkV1KSACpqVJX4s8HyxZFCHfdgryDW9tLfVJKXGHP36",
+      "baseToken": {
+        "address": "6XEbCGFczkNrjEv6PTMEnwV6cuUnT7bRpmpTk5EKbonk",
+        "name": "BonkMas",
+        "symbol": "BonkMas"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.00001367",
+      "priceUsd": "0.00001367",
+      "txns": {
+        "m5": {
+          "buys": 3,
+          "sells": 2
+        },
+        "h1": {
+          "buys": 81,
+          "sells": 40
+        },
+        "h6": {
+          "buys": 81,
+          "sells": 40
+        },
+        "h24": {
+          "buys": 81,
+          "sells": 40
+        }
+      },
+      "volume": {
+        "h24": 9093.14,
+        "h6": 9093.14,
+        "h1": 9093.14,
+        "m5": 500.21
+      },
+      "priceChange": {
+        "m5": 1.81,
+        "h1": 25.77,
+        "h6": 25.77,
+        "h24": 25.77
+      },
+      "fdv": 13678.72,
+      "marketCap": 13678.72,
+      "pairCreatedAt": 1762343588000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/32vjneqs23a7vhh6g8gcuwem14ffssj1kdzz59hz5nyk",
+      "pairAddress": "32VjnEqs23a7vhH6G8Gcuwem14ffsSj1kdZz59HZ5NYK",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "5H1jkA7erRxwD8uqH8KimMD74ctjUYBd32rbp2jubonk",
+        "name": "UnicornSheepDog1",
+        "symbol": "USD1"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.0001398",
+      "priceUsd": "0.0001398",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 5,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 8,
+          "sells": 16
+        },
+        "h24": {
+          "buys": 200,
+          "sells": 236
+        }
+      },
+      "volume": {
+        "h24": 20432.94,
+        "h6": 444.11,
+        "h1": 146.1,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": 1.54,
+        "h6": -0.19,
+        "h24": 65.79
+      },
+      "liquidity": {
+        "usd": 38072.86,
+        "base": 136107492,
+        "quote": 19036
+      },
+      "fdv": 139863,
+      "marketCap": 139863,
+      "pairCreatedAt": 1758718640000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/5H1jkA7erRxwD8uqH8KimMD74ctjUYBd32rbp2jubonk.png?key=f0e8ff",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5H1jkA7erRxwD8uqH8KimMD74ctjUYBd32rbp2jubonk/header.png?key=f0e8ff",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5H1jkA7erRxwD8uqH8KimMD74ctjUYBd32rbp2jubonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://www.theunicornsheep.dog/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/UnicornSheepDog"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/UnicornSheepDogPortal"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/56gttl6gmpywexgk9hclzbrevwdjq1cduvcruyuayq97",
+      "pairAddress": "56GTtL6gMpYwExgk9hcLzbRevWdjq1CdUvcruYuayq97",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "BUF3TvvZfCMMWaPZJMTGm5WWVmi2arQ9Swze4CPEbonk",
+        "name": "The Eagle",
+        "symbol": "Clutch"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.001006",
+      "priceUsd": "0.001006",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 2,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 7,
+          "sells": 1
+        },
+        "h24": {
+          "buys": 60,
+          "sells": 35
+        }
+      },
+      "volume": {
+        "h24": 25359.14,
+        "h6": 1334.26,
+        "h1": 320.71,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": 1.17,
+        "h6": 4.21,
+        "h24": 10.94
+      },
+      "liquidity": {
+        "usd": 110094.5,
+        "base": 54685907,
+        "quote": 55047
+      },
+      "fdv": 1006608,
+      "marketCap": 1006608,
+      "pairCreatedAt": 1758810427000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/BUF3TvvZfCMMWaPZJMTGm5WWVmi2arQ9Swze4CPEbonk.png?key=49efde",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BUF3TvvZfCMMWaPZJMTGm5WWVmi2arQ9Swze4CPEbonk/header.png?key=49efde",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BUF3TvvZfCMMWaPZJMTGm5WWVmi2arQ9Swze4CPEbonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://www.nytimes.com/athletic/6659262/2025/09/25/world-cup-2026-mascots/?source=twitteruk"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/i/communities/1971239133407478042"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/bqp7e4ojtzu48mmjugykxuikbq66wnisq3svkpkmwe6g",
+      "pairAddress": "BQP7e4oJTZu48mMJUgYKXUiKBq66WNisQ3sVKpkMWe6g",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "G2ygAeUVpYUhpNsmrpvd2BHTWazyDV72kRpsQSEcbonk",
+        "name": "Quantum Execution Token",
+        "symbol": "QX"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.0002493",
+      "priceUsd": "0.0002493",
+      "txns": {
+        "m5": {
+          "buys": 13,
+          "sells": 6
+        },
+        "h1": {
+          "buys": 64,
+          "sells": 43
+        },
+        "h6": {
+          "buys": 133,
+          "sells": 60
+        },
+        "h24": {
+          "buys": 141,
+          "sells": 70
+        }
+      },
+      "volume": {
+        "h24": 49967.56,
+        "h6": 44985.67,
+        "h1": 29541.73,
+        "m5": 2776.25
+      },
+      "priceChange": {
+        "m5": 20.93,
+        "h1": 75,
+        "h6": 244,
+        "h24": 262
+      },
+      "liquidity": {
+        "usd": 51114.64,
+        "base": 102496924,
+        "quote": 25557
+      },
+      "fdv": 249347,
+      "marketCap": 249347,
+      "pairCreatedAt": 1758474626000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/G2ygAeUVpYUhpNsmrpvd2BHTWazyDV72kRpsQSEcbonk.png?key=0fa594",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/G2ygAeUVpYUhpNsmrpvd2BHTWazyDV72kRpsQSEcbonk/header.png?key=0fa594",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/G2ygAeUVpYUhpNsmrpvd2BHTWazyDV72kRpsQSEcbonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://qnt.sh"
+          },
+          {
+            "label": "Docs",
+            "url": "https://doc.qnt.sh/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/QuantumAI__X"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/QQuantum_AI"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "launchlab",
+      "url": "https://dexscreener.com/solana/epmd4pz4cfhgmsesek3g9zrjusnr9hfj9ds1vmgijycw",
+      "pairAddress": "Epmd4pZ4CFhgMSEsEK3g9zRjUSnr9HFJ9Ds1VMgiJYCw",
+      "baseToken": {
+        "address": "AWt9PEhvRa9Ck2eDsdAJMQE7dSqbV6bC1ScwUTKZbonk",
+        "name": "and so it begins",
+        "symbol": "BEGINS"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.000005191",
+      "priceUsd": "0.000005191",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 0,
+          "sells": 1
+        },
+        "h24": {
+          "buys": 280,
+          "sells": 294
+        }
+      },
+      "volume": {
+        "h24": 49959.69,
+        "h6": 0.74,
+        "h1": 0,
+        "m5": 0
+      },
+      "priceChange": {
+        "h6": -0.03,
+        "h24": 10.88
+      },
+      "fdv": 5191.52,
+      "marketCap": 5191.52,
+      "pairCreatedAt": 1762319074000
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/3ambwgptwpg2srijuyf5stb7wcblvjgqbwceycddfhmj",
+      "pairAddress": "3AMbWgPTwpG2SRiJUYF5Stb7wCbLvJgQBWcEYCddFhmJ",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "AzVCECC5zr21ikYQne4Xtoh3SVg848duPHUHb3M7bonk",
+        "name": "Freya Protocol",
+        "symbol": "FREYA"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.009509",
+      "priceUsd": "0.009509",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 1,
+          "sells": 1
+        },
+        "h6": {
+          "buys": 5,
+          "sells": 3
+        },
+        "h24": {
+          "buys": 29,
+          "sells": 21
+        }
+      },
+      "volume": {
+        "h24": 13752.41,
+        "h6": 2046.74,
+        "h1": 233.18,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": -0.2,
+        "h6": 0.8,
+        "h24": 4.6
+      },
+      "liquidity": {
+        "usd": 331935.97,
+        "base": 17452745,
+        "quote": 165967
+      },
+      "fdv": 9509563,
+      "marketCap": 4757714,
+      "pairCreatedAt": 1757560568000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/AzVCECC5zr21ikYQne4Xtoh3SVg848duPHUHb3M7bonk.png?key=d35548",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AzVCECC5zr21ikYQne4Xtoh3SVg848duPHUHb3M7bonk/header.png?key=d35548",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AzVCECC5zr21ikYQne4Xtoh3SVg848duPHUHb3M7bonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://linktr.ee/Freya_Starfall"
+          },
+          {
+            "label": "Docs",
+            "url": "https://starfall-handbook.rosentica.jp/"
+          },
+          {
+            "label": "YouTube",
+            "url": "https://www.youtube.com/watch?v=zN9-WAgDSLM"
+          },
+          {
+            "label": "Yielding Dashboard",
+            "url": "https://stardust.rosentica.jp/dashboard/yield"
+          },
+          {
+            "label": "ICM Flywheel",
+            "url": "https://starfall-handbook.rosentica.jp/revenue-powered-yielding-icm-flywheel"
+          },
+          {
+            "label": "App Store",
+            "url": "https://apps.apple.com/jp/app/freya-the-starfall/id6748046501?l=en-US"
+          },
+          {
+            "label": "Google Play",
+            "url": "https://play.google.com/store/apps/details?id=com.battleauto.bat&hl=en-JP&utm_source=apac_med"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/Freya_Starfall"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/freya_starfall"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/rosentica"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "url": "https://dexscreener.com/solana/aj4kykuwcpedxq8lkxdnfrm6t5tkshnwape4xvfv6fmy",
+      "pairAddress": "AJ4KYkuwCPEdXQ8LkxDnfRM6T5tKSHnWApE4xvFV6FmY",
+      "labels": [
+        "DLMM"
+      ],
+      "baseToken": {
+        "address": "3wPQhXYqy861Nhoc4bahtpf7G3e89XCLfZ67ptEfZUSA",
+        "name": "VALOR",
+        "symbol": "VALOR"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.008188",
+      "priceUsd": "0.008188",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 4,
+          "sells": 5
+        },
+        "h6": {
+          "buys": 52,
+          "sells": 61
+        },
+        "h24": {
+          "buys": 339,
+          "sells": 375
+        }
+      },
+      "volume": {
+        "h24": 95420.92,
+        "h6": 11642.49,
+        "h1": 632.88,
+        "m5": 0
+      },
+      "priceChange": {
+        "h1": 2.11,
+        "h6": -2.87
+      },
+      "liquidity": {
+        "usd": 145690.93,
+        "base": 14536632,
+        "quote": 26655
+      },
+      "fdv": 8188626,
+      "marketCap": 8188626,
+      "pairCreatedAt": 1761162690000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/3wPQhXYqy861Nhoc4bahtpf7G3e89XCLfZ67ptEfZUSA.png?key=b12b4b",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3wPQhXYqy861Nhoc4bahtpf7G3e89XCLfZ67ptEfZUSA/header.png?key=b12b4b",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3wPQhXYqy861Nhoc4bahtpf7G3e89XCLfZ67ptEfZUSA?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://valoramericaneagle.com"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/valoramerica"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/ValorAmericaUSD1"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "url": "https://dexscreener.com/solana/hmobb8gj6karkkuad66rpbgl2wwmcaupcvxwk8cf3jeq",
+      "pairAddress": "HMobB8gj6KARkkuad66RpBGL2wWmcAUPCvxwK8cF3Jeq",
+      "labels": [
+        "DLMM"
+      ],
+      "baseToken": {
+        "address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
+        "name": "1 coin can change your life",
+        "symbol": "1"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.02456",
+      "priceUsd": "0.02456",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h24": {
+          "buys": 209,
+          "sells": 222
+        }
+      },
+      "volume": {
+        "h24": 10241.72,
+        "h6": 0,
+        "h1": 0,
+        "m5": 0
+      },
+      "priceChange": {
+        "h24": -1.12
+      },
+      "liquidity": {
+        "usd": 3507.1,
+        "base": 158.234,
+        "quote": 3503.2195
+      },
+      "fdv": 24562316,
+      "marketCap": 24562316,
+      "pairCreatedAt": 1762265021000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk.png?key=7dfbc4",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk/header.png?key=7dfbc4",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://www.1co1n.com/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/1coinonsolana"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/4xiw3g9dkrhsoujsdfkntyyi7tpslgyx9dbtd86ydzud",
+      "pairAddress": "4xiW3g9dkRhSoUJSdFKNtyyi7TPsLGYX9dBtd86yDzud",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "CZJzsywCWkqZNa6CRW3Av6WVNCvTX3EuBwS2nar8bonk",
+        "name": "Whatrr",
+        "symbol": "WHATRR"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.00001135",
+      "priceUsd": "0.00001135",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 6,
+          "sells": 1
+        },
+        "h24": {
+          "buys": 17,
+          "sells": 19
+        }
+      },
+      "volume": {
+        "h24": 4931.43,
+        "h6": 489.6,
+        "h1": 0,
+        "m5": 0
+      },
+      "priceChange": {
+        "h6": 0.2,
+        "h24": -5.57
+      },
+      "liquidity": {
+        "usd": 48955.89,
+        "base": 2155626485,
+        "quote": 24477
+      },
+      "fdv": 227108,
+      "marketCap": 227108,
+      "pairCreatedAt": 1758730415000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/CZJzsywCWkqZNa6CRW3Av6WVNCvTX3EuBwS2nar8bonk.png?key=589285",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CZJzsywCWkqZNa6CRW3Av6WVNCvTX3EuBwS2nar8bonk/header.png?key=589285",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CZJzsywCWkqZNa6CRW3Av6WVNCvTX3EuBwS2nar8bonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://whatrr.com"
+          },
+          {
+            "label": "Docs",
+            "url": "https://cdn.shopify.com/s/files/1/0669/4957/8983/files/The_Whatrr_Paper.pdf?v=1754457033"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/whatrrdotcom"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/WHATRRraidgroup"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.gg/sMP5U6YYcZ"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "url": "https://dexscreener.com/solana/79ztsyjgbuzjyqiyp6a3wkepu3nqc5rcb6wqhsvfr1tr",
+      "pairAddress": "79ZTsyjgbUZJYqiyp6A3WKEPu3nqc5Rcb6WQHSVFR1tr",
+      "labels": [
+        "DLMM"
+      ],
+      "baseToken": {
+        "address": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
+        "name": "1 coin can change your life",
+        "symbol": "1"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.02442",
+      "priceUsd": "0.02442",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h6": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h24": {
+          "buys": 1,
+          "sells": 4
+        }
+      },
+      "volume": {
+        "h24": 114.02,
+        "h6": 0,
+        "h1": 0,
+        "m5": 0
+      },
+      "priceChange": {
+        "h24": -2
+      },
+      "liquidity": {
+        "usd": 3499.36,
+        "base": 2802.6129,
+        "quote": 3430.9079
+      },
+      "fdv": 24426760,
+      "marketCap": 24426760,
+      "pairCreatedAt": 1762263712000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk.png?key=7dfbc4",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk/header.png?key=7dfbc4",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://www.1co1n.com/"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/1coinonsolana"
+          }
+        ]
+      }
+    },
+    {
+      "chainId": "solana",
+      "dexId": "raydium",
+      "url": "https://dexscreener.com/solana/bbmp2wm22h4jdeq33rurnuk41rhmogxd2smrs1q6r9yq",
+      "pairAddress": "BBMp2Wm22h4jDeQ33RUrnuK41RHMogXd2SMRs1q6R9yq",
+      "labels": [
+        "CPMM"
+      ],
+      "baseToken": {
+        "address": "95wN2JLcR57xiv3CErbW183NwBQ6x9m6WFzAfz4Vbonk",
+        "name": "bAI",
+        "symbol": "bAI"
+      },
+      "quoteToken": {
+        "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+        "name": "World Liberty Financial USD",
+        "symbol": "USD1"
+      },
+      "priceNative": "0.001722",
+      "priceUsd": "0.001722",
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 0,
+          "sells": 2
+        },
+        "h6": {
+          "buys": 0,
+          "sells": 3
+        },
+        "h24": {
+          "buys": 0,
+          "sells": 3
+        }
+      },
+      "volume": {
+        "h24": 78.96,
+        "h6": 78.96,
+        "h1": 0.03,
+        "m5": 0
+      },
+      "priceChange": {},
+      "liquidity": {
+        "usd": 160987.88,
+        "base": 46737089,
+        "quote": 80493
+      },
+      "fdv": 1722271,
+      "marketCap": 1722271,
+      "pairCreatedAt": 1757704735000,
+      "info": {
+        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/95wN2JLcR57xiv3CErbW183NwBQ6x9m6WFzAfz4Vbonk.png?key=c1f5df",
+        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/95wN2JLcR57xiv3CErbW183NwBQ6x9m6WFzAfz4Vbonk/header.png?key=c1f5df",
+        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/95wN2JLcR57xiv3CErbW183NwBQ6x9m6WFzAfz4Vbonk?timestamp=1762345200000",
+        "websites": [
+          {
+            "label": "Website",
+            "url": "https://baiagent.io"
+          }
+        ],
+        "socials": [
+          {
+            "type": "twitter",
+            "url": "https://x.com/bAI_Agent"
+          },
+          {
+            "type": "telegram",
+            "url": "https://t.me/bAI_officialgroup"
+          }
+        ]
+      }
+    }
+  ]
+}

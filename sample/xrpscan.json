@@ -1,0 +1,48 @@
+{
+    "id": "4242524C00000000000000000000000000000000.rH5CJsqvNqZGxrMyGaqLEoMWRYcVTAPZMt",
+    "amms": 2,
+    "code": "BBRL",
+    "createdAt": "2025-01-09T10:29:28.512Z",
+    "currency": "4242524C00000000000000000000000000000000",
+    "holders": 61,
+    "issuer": "rH5CJsqvNqZGxrMyGaqLEoMWRYcVTAPZMt",
+    "token": "BBRL.rH5CJsqvNqZGxrMyGaqLEoMWRYcVTAPZMt",
+    "updatedAt": "2025-10-31T11:11:57.937Z",
+    "blackholed": false,
+    "supply": 32005574.51,
+    "meta": {
+      "token": {
+        "weblinks": []
+      },
+      "issuer": {
+        "kyc": false,
+        "name": "BBRL",
+        "weblinks": []
+      }
+    },
+    "metrics": {
+      "trustlines": 103,
+      "holders": 61,
+      "supply": "31999434.5099999",
+      "marketcap": "23168971.3745207",
+      "price": "0.72404315042756",
+      "volume_24h": "0.183408999999999",
+      "volume_7d": "10.0878189999998",
+      "exchanges_24h": 11,
+      "exchanges_7d": 312,
+      "takers_24h": 2,
+      "takers_7d": 43
+    },
+    "marketcap": 5152881.00683802,
+    "price": 0.1609994848,
+    "disabled": false,
+    "score": 0.0525191812330454,
+    "IssuingAccount": {
+      "name": "BBRL",
+      "desc": "Issuer",
+      "account": "rH5CJsqvNqZGxrMyGaqLEoMWRYcVTAPZMt",
+      "domain": "bbrl.braza.com.br",
+      "twitter": "GrupoBraza",
+      "verified": true
+    }
+  }

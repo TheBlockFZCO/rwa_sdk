@@ -1,0 +1,49 @@
+{
+    "asset": "USDC-GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN-1",
+    "created": 1611089770,
+    "supply": 2467215326198207,
+    "trustlines": {
+      "total": 1856036,
+      "authorized": 1856036,
+      "funded": 553609
+    },
+    "payments": 67818427,
+    "payments_amount": 310992020728922750,
+    "trades": 119865447,
+    "traded_amount": 75835916428587550,
+    "price": 0.999914253877613,
+    "volume": 75842579324381260,
+    "volume7d": 219368444425387,
+    "price7d": [
+      [1761264000, 1.00002338488372],
+      [1761350400, 1.00001135326087],
+      [1761436800, 0.999977810552764],
+      [1761523200, 1.00001334952381],
+      [1761609600, 1.00000576043956],
+      [1761696000, 0.99997703015873],
+      [1761782400, 1.00004031282051],
+      [1761868800, 1.00009477254902]
+    ],
+    "contract": "CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75",
+    "toml_info": {
+      "code": "USDC",
+      "issuer": "GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+      "name": "USD Coin",
+      "image": "https://stellar.myfilebase.com/ipfs/QmNcfZxs8e9uVyhEa3xoPWCsj3ZogGirtixMEC9Km4Fjm2",
+      "anchorAssetType": "fiat",
+      "anchorAsset": "USD",
+      "orgName": "Centre Consortium LLC dba Centre Consortium",
+      "orgLogo": "https://stellar.myfilebase.com/ipfs/QmfAKNcYWpQCPFgckEuTboks1GsaRYhzqgSrM6ZGFXMToo"
+    },
+    "home_domain": "centre.io",
+    "rating": {
+      "age": 9,
+      "trades": 10,
+      "payments": 9,
+      "trustlines": 10,
+      "volume7d": 10,
+      "interop": 4,
+      "liquidity": 7,
+      "average": 8.4
+    }
+  }

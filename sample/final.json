@@ -1,0 +1,184 @@
+{
+    "asset": {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "category": "Fiat-backed stablecoin",
+      "peg": {
+        "currency": "USD",
+        "mechanism": "1:1 USD backing",
+        "maintained": true
+      },
+      "issuer": {
+        "name": "Tether Limited",
+        "jurisdiction": "British Virgin Islands",
+        "parent": "iFinex Inc.",
+        "legalStructure": "Private Limited Company",
+        "regulatoryStatus": "Virtual Asset"
+      },
+      "media": {
+        "website": "https://tether.to",
+        "whitepaper": "https://tether.to/whitepaper",
+        "transparency": "https://tether.to/transparency",
+        "explorers": {
+          "ethereum": "https://etherscan.io",
+          "tron": "https://tronscan.org",
+          "bsc": "https://bscscan.com"
+        },
+        "socials": {
+          "twitter": "@Tether_to",
+          "telegram": "t.me/OfficialTether"
+        },
+        "support": "support@tether.to"
+      }
+    },
+    "reserve": {
+      "totalReserves": "92.3B",
+      "reserveRatio": "103.5%",
+      "composition": {
+        "cashAndDeposits": "8.5%",
+        "usTreasuries": "80.2%",
+        "moneyMarketFunds": "6.8%",
+        "corporateBonds": "2.1%",
+        "securedLoans": "1.9%",
+        "otherInvestments": "0.5%"
+      },
+      "attestation": {
+        "provider": "BDO Italia",
+        "frequency": "Quarterly",
+        "lastDate": "2024-12-31"
+      }
+    },
+    "usage": {
+      "primaryFunctions": [
+        "Trading pairs",
+        "Store of value",
+        "Remittances",
+        "DeFi collateral",
+        "Business payments"
+      ],
+      "defiTvl": "18.7B",
+      "integrations": "1000+ DApps",
+      "yieldRange": "5–12% APY"
+    },
+    "risk": {
+      "regulatoryRisk": "High",
+      "counterpartyRisk": "Medium",
+      "smartContractRisk": "Low",
+      "depegRisk": "Low–Medium",
+      "centralizationRisk": "High"
+    },
+    "history": {
+      "inception": 2014,
+      "pegStability": "99.5% within ±1%",
+      "largestDepeg": "-5.8% (May 2022)",
+      "recoveryTime": "48h",
+      "supplyGrowthYoY": "+15.2%"
+    },
+    "banking": {
+      "primaryPartners": ["Cantor Fitzgerald", "Britannia Bank & Trust"],
+      "fdicInsurance": "Partial (Cash only)",
+      "custodyType": "Segregated accounts",
+      "audited": true
+    },
+    "compliance": {
+      "amlKyc": "Exchange-level enforcement",
+      "assetSeizureCapable": true,
+      "auditHistory": "Quarterly since 2021",
+      "insuranceCoverage": "Partial"
+    },
+    "suitability": {
+      "suitableFor": [
+        "Short-term liquidity needs",
+        "Trading activities",
+        "Crypto-to-fiat bridge",
+        "DeFi participation",
+        "Cross-border transactions"
+      ],
+      "notSuitableFor": [
+        "Long-term appreciation",
+        "High-yield investors",
+        "Regulation-averse investors",
+        "Decentralization purists"
+      ],
+      "recommendedHoldingPeriod": "Short to medium term"
+    },
+    "market": {
+      "price": 1.0,
+      "circulatingSupply": "91.5B",
+      "marketCap": "91.5B",
+      "holders": "5.2M+",
+      "dailyVolume": "52.8B",
+      "performance30d": "+0.02%",
+      "dominance": "67.8%",
+      "competitors": {
+        "USDC": "28B",
+        "DAI": "5B"
+      }
+    },
+    "networks": [
+      {
+        "id": "1",
+        "name": "ethereum",
+        "standard": ["erc20", "erc1400"],
+        "contractVerified": true,
+        "transactionFinality": "12s",
+        "address": ["0x0000000000000000000000000000000000000000"]
+      }
+    ],
+    "contracts": [
+        {
+            "network": "56",
+            "address": "0x0000000000000000000000000000000000000000",
+            "name": "USDT",
+            "symbol": "USDT",
+            "decimals": "6",
+            "totalSupply": "1947613672163812375",
+            "pairs": [
+                {
+                    "pair": "0x0000000000000000000000000000000000000000",
+                    "token0": "0x0000000000000000000000000000000000000000",
+                    "token1": "0x0000000000000000000000000000000000000000",
+                    "reserve0": "1234567890",
+                    "reserve1": "987654321",
+                    "price0": "800000000000000000",
+                    "price1": "1250000000000000000"
+                }
+            ]
+        }
+    ],
+    "externalData" : [
+        {
+            "address" : "0x0000000000000000000000000000000000000000",
+            "logo_url": "https://logos.covalenthq.com/tokens/56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png",
+            "chain_logo_url": "https://www.datocms-assets.com/86369/1670003808-binance-smart-chain-icon-white.svg",
+            "quote_currency": "USD",
+            "prices": [
+                {
+                    "date": "2025-10-17",
+                    "price": 0.99661624,
+                    "pretty_price": "$1.00"
+                },
+                {
+                    "date": "2025-10-16",
+                    "price": 0.99661624,
+                    "pretty_price": "$1.00"
+                }
+            ],
+            "holders": [
+                {
+                    "address": "0x497e224d7008fe47349035ddd98bedb773e1f4c5",
+                    "balance": "66314586486522711271"
+                },
+                {
+                    "address": "0x497e224d7008fe47349035ddd98bedb773e1f4c5",
+                    "balance": "66314586486522711271"
+                },
+                {
+                    "address": "0x497e224d7008fe47349035ddd98bedb773e1f4c5",
+                    "balance": "66314586486522711271"
+                }
+            ]
+        }
+    ]
+  }
+  
