@@ -58,3 +58,5 @@ export {
 export { buildGeckoTerminalTokenSummary } from "./clients/GeckoTerminalClient";
 export { MoralisClient, type MoralisClientConfig, type MoralisERC20TokenResponse } from "./clients/MoralisClient";
 
+export { DefiLlamaClient, type DefiLlamaClientConfig, type DefiLlamaProtocol } from "./clients/DefiLlamaClient";
+

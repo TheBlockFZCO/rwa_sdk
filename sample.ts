@@ -1,104 +1,104 @@
-import { Address } from "viem";
-import { buildOnChain, type NetworkInput, DexscreenerClient, StellarExpertClient, XrpscanClient, AptosIndexerClient, DexguruClient, GeckoTerminalClient, buildGeckoTerminalTokenSummary, MoralisClient } from "./src";
-import { buildDexscreenerTokenSummary } from "./src/clients/DexscreenerClient";
-import { arbitrum, avalanche, base, bsc, mainnet, optimism, polygon, sonic } from "viem/chains";
-import { writeFileSync } from "fs";
-import { resolve } from "path";
+// import { Address } from "viem";
+// import { buildOnChain, type NetworkInput, DexscreenerClient, StellarExpertClient, XrpscanClient, AptosIndexerClient, DexguruClient, GeckoTerminalClient, buildGeckoTerminalTokenSummary, MoralisClient } from "./src";
+// import { buildDexscreenerTokenSummary } from "./src/clients/DexscreenerClient";
+// import { arbitrum, avalanche, base, bsc, mainnet, optimism, polygon, sonic } from "viem/chains";
+// import { writeFileSync } from "fs";
+// import { resolve } from "path";
 
-const ZERO: Address = "0x0000000000000000000000000000000000000000";
-// const WETH: Address = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
-// const USDC: Address = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48";
+// const ZERO: Address = "0x0000000000000000000000000000000000000000";
+// // const WETH: Address = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
+// // const USDC: Address = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48";
 
-const inputs: NetworkInput[] = [
-  {
-    chainId: 1,
-    chainName: "eth-mainnet",
-    // geckoTerminalId: "eth",
-    rpcUrl: "https://eth-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
-    factory: [ZERO],
-    base: [ZERO],
-    walletAddress: ZERO,
-    quoteCurrency: "USD",
-    chain: mainnet,
-  },
-  {
-    chainId: 10,
-    chainName: "optimism-mainnet",
-    // geckoTerminalId: "optimism",
-    rpcUrl: "https://opt-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
-    factory: [ZERO],
-    base: [ZERO],
-    walletAddress: ZERO,
-    quoteCurrency: "USD",
-    chain: optimism,
-  },
-  {
-    chainId: 56,
-    chainName: "bsc-mainnet",
-    // geckoTerminalId: "bsc",
-    rpcUrl: "https://bnb-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
-    factory: [ZERO],
-    base: [ZERO],
-    walletAddress: ZERO,
-    quoteCurrency: "USD",
-    chain: bsc,
-  },
-  {
-    chainId: 137,
-    chainName: "polygon-mainnet",
-    // geckoTerminalId: "polygon_pos",
-    rpcUrl: "https://bnb-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
-    factory: [ZERO],
-    base: [ZERO],
-    walletAddress: ZERO,
-    quoteCurrency: "USD",
-    chain: polygon,
-  },
-  {
-    chainId: 146,
-    chainName: "sonic-mainnet",
-    // geckoTerminalId: "sonic",
-    rpcUrl: "https://sonic-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
-    factory: [ZERO],
-    base: [ZERO],
-    walletAddress: ZERO,
-    quoteCurrency: "USD",
-    chain: sonic,
-  },
-  {
-    chainId: 8453,
-    chainName: "base-mainnet",
-    // geckoTerminalId: "base",
-    rpcUrl: "https://base-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
-    factory: [ZERO],
-    base: [ZERO],
-    walletAddress: ZERO,
-    quoteCurrency: "USD",
-    chain: base,
-  },
-  {
-    chainId: 42161,
-    chainName: "arbitrum-mainnet",
-    // geckoTerminalId: "arbitrum",
-    rpcUrl: "https://arb-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
-    factory: [ZERO],
-    base: [ZERO],
-    walletAddress: ZERO,
-    quoteCurrency: "USD",
-    chain: arbitrum,
-  },
-  {
-    chainId: 43114,
-    chainName: "avalanche-mainnet",
-    // geckoTerminalId: "avax",
-    rpcUrl: "https://avax-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
-    factory: [ZERO],
-    base: [ZERO],
-    walletAddress: ZERO,
-    quoteCurrency: "USD",
-    chain: avalanche,
-  },
-];
+// const inputs: NetworkInput[] = [
+//   {
+//     chainId: 1,
+//     chainName: "eth-mainnet",
+//     // geckoTerminalId: "eth",
+//     rpcUrl: "https://eth-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
+//     factory: [ZERO],
+//     base: [ZERO],
+//     walletAddress: ZERO,
+//     quoteCurrency: "USD",
+//     chain: mainnet,
+//   },
+//   {
+//     chainId: 10,
+//     chainName: "optimism-mainnet",
+//     // geckoTerminalId: "optimism",
+//     rpcUrl: "https://opt-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
+//     factory: [ZERO],
+//     base: [ZERO],
+//     walletAddress: ZERO,
+//     quoteCurrency: "USD",
+//     chain: optimism,
+//   },
+//   {
+//     chainId: 56,
+//     chainName: "bsc-mainnet",
+//     // geckoTerminalId: "bsc",
+//     rpcUrl: "https://bnb-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
+//     factory: [ZERO],
+//     base: [ZERO],
+//     walletAddress: ZERO,
+//     quoteCurrency: "USD",
+//     chain: bsc,
+//   },
+//   {
+//     chainId: 137,
+//     chainName: "polygon-mainnet",
+//     // geckoTerminalId: "polygon_pos",
+//     rpcUrl: "https://bnb-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
+//     factory: [ZERO],
+//     base: [ZERO],
+//     walletAddress: ZERO,
+//     quoteCurrency: "USD",
+//     chain: polygon,
+//   },
+//   {
+//     chainId: 146,
+//     chainName: "sonic-mainnet",
+//     // geckoTerminalId: "sonic",
+//     rpcUrl: "https://sonic-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
+//     factory: [ZERO],
+//     base: [ZERO],
+//     walletAddress: ZERO,
+//     quoteCurrency: "USD",
+//     chain: sonic,
+//   },
+//   {
+//     chainId: 8453,
+//     chainName: "base-mainnet",
+//     // geckoTerminalId: "base",
+//     rpcUrl: "https://base-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
+//     factory: [ZERO],
+//     base: [ZERO],
+//     walletAddress: ZERO,
+//     quoteCurrency: "USD",
+//     chain: base,
+//   },
+//   {
+//     chainId: 42161,
+//     chainName: "arbitrum-mainnet",
+//     // geckoTerminalId: "arbitrum",
+//     rpcUrl: "https://arb-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
+//     factory: [ZERO],
+//     base: [ZERO],
+//     walletAddress: ZERO,
+//     quoteCurrency: "USD",
+//     chain: arbitrum,
+//   },
+//   {
+//     chainId: 43114,
+//     chainName: "avalanche-mainnet",
+//     // geckoTerminalId: "avax",
+//     rpcUrl: "https://avax-mainnet.g.alchemy.com/v2/GwL4E_7jzhO6_eH_aV3tkKlELSh7UQEO",
+//     factory: [ZERO],
+//     base: [ZERO],
+//     walletAddress: ZERO,
+//     quoteCurrency: "USD",
+//     chain: avalanche,
+//   },
+// ];
 
 // const nets = buildOnChain(inputs);
 // const { erc20Client, uniClient, addressClient, goldrushClient } = nets[2];
@@ -178,38 +178,38 @@ const inputs: NetworkInput[] = [
 //   console.log("[DexGuru] Skipping - DEXGURU_API_KEY not set");
 // }
 
-const GECKO_SAMPLE_NETWORK = "eth";
-const GECKO_SAMPLE_TOKEN = "0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf";
-const GECKO_SAMPLE_OUTPUT = resolve(process.cwd(), "geckoterminal.json");
+// const GECKO_SAMPLE_NETWORK = "eth";
+// const GECKO_SAMPLE_TOKEN = "0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf";
+// const GECKO_SAMPLE_OUTPUT = resolve(process.cwd(), "geckoterminal.json");
 
-async function runLatokenGeckoSample() {
-  const geckoterminal = new GeckoTerminalClient();
-  try {
-    const gtData = await geckoterminal.getToken(GECKO_SAMPLE_NETWORK, GECKO_SAMPLE_TOKEN, true, false);
-    const gtSummary = buildGeckoTerminalTokenSummary(GECKO_SAMPLE_NETWORK, GECKO_SAMPLE_TOKEN, gtData);
+// async function runLatokenGeckoSample() {
+//   const geckoterminal = new GeckoTerminalClient();
+//   try {
+//     const gtData = await geckoterminal.getToken(GECKO_SAMPLE_NETWORK, GECKO_SAMPLE_TOKEN, true, false);
+//     const gtSummary = buildGeckoTerminalTokenSummary(GECKO_SAMPLE_NETWORK, GECKO_SAMPLE_TOKEN, gtData);
 
-    writeFileSync(
-      GECKO_SAMPLE_OUTPUT,
-      JSON.stringify(
-        {
-          request: { network: GECKO_SAMPLE_NETWORK, tokenAddress: GECKO_SAMPLE_TOKEN },
-          raw: gtData,
-          summary: gtSummary,
-        },
-        null,
-        2
-      ),
-      "utf8"
-    );
+//     writeFileSync(
+//       GECKO_SAMPLE_OUTPUT,
+//       JSON.stringify(
+//         {
+//           request: { network: GECKO_SAMPLE_NETWORK, tokenAddress: GECKO_SAMPLE_TOKEN },
+//           raw: gtData,
+//           summary: gtSummary,
+//         },
+//         null,
+//         2
+//       ),
+//       "utf8"
+//     );
 
-    console.log(`[GeckoTerminal] LAToken summary saved to ${GECKO_SAMPLE_OUTPUT}`);
-    console.dir(gtSummary, { depth: null });
-  } catch (e) {
-    console.error(`[GeckoTerminal] Error while fetching LAToken sample:`, e);
-  }
-}
+//     console.log(`[GeckoTerminal] LAToken summary saved to ${GECKO_SAMPLE_OUTPUT}`);
+//     console.dir(gtSummary, { depth: null });
+//   } catch (e) {
+//     console.error(`[GeckoTerminal] Error while fetching LAToken sample:`, e);
+//   }
+// }
 
-void runLatokenGeckoSample();
+// void runLatokenGeckoSample();
 
 // Stellar Expert sample: fetch asset details for BENJI
 // const stellar = new StellarExpertClient();
@@ -262,3 +262,38 @@ void runLatokenGeckoSample();
 // } else {
 //   console.log("[Moralis] Skipping - MORALIS_API_KEY not set");
 // }
+
+import { DefiLlamaClient } from "./src";
+import { writeFileSync } from "fs";
+import { resolve } from "path";
+
+const LLAMA_PROTOCOLS_OUTPUT = resolve(process.cwd(), "defillama_protocols.json");
+
+async function runDefiLlamaProtocolsSample() {
+  const llama = new DefiLlamaClient({ timeoutMs: 20_000, retries: 2 });
+  try {
+    const protocols = await llama.getProtocols();
+    writeFileSync(
+      LLAMA_PROTOCOLS_OUTPUT,
+      JSON.stringify(
+        {
+          request: { path: "/protocols" },
+          count: protocols.length,
+          // keep a small preview for easy inspection, and the full payload for offline analysis
+          preview: protocols.slice(0, 10),
+          raw: protocols,
+        },
+        null,
+        2,
+      ),
+      "utf8",
+    );
+
+    console.log(`[DefiLlama] Protocols saved to ${LLAMA_PROTOCOLS_OUTPUT} (count: ${protocols.length})`);
+    console.dir(protocols[0], { depth: null });
+  } catch (e) {
+    console.error(`[DefiLlama] Error while fetching /protocols:`, e);
+  }
+}
+
+void runDefiLlamaProtocolsSample();
