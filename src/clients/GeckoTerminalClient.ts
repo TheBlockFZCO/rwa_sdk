@@ -10,6 +10,12 @@ export interface GeckoTerminalPoolAttributes {
 	name?: string;
 	base_token: GeckoTerminalTokenInfo;
 	quote_token: GeckoTerminalTokenInfo;
+	base_token_price_usd?: string;
+	base_token_price_native_currency?: string;
+	quote_token_price_usd?: string;
+	quote_token_price_native_currency?: string;
+	base_token_price_quote_token?: string;
+	quote_token_price_base_token?: string;
 	pool_created_at?: string;
 	fdv_usd?: string;
 	market_cap_usd?: string;
@@ -55,6 +61,13 @@ export interface GeckoTerminalTokenData {
 		decimals?: number;
 		image_url?: string;
 		coingecko_coin_id?: string;
+		total_supply?: string;
+		normalized_total_supply?: string;
+		price_usd?: string | null;
+		fdv_usd?: string | null;
+		total_reserve_in_usd?: string;
+		volume_usd?: { h24?: string };
+		market_cap_usd?: string;
 	};
 }
 
@@ -241,7 +254,14 @@ export function buildGeckoTerminalTokenSummary(
 	tokenAddress: string,
 	response: GeckoTerminalTokenResponse
 ): GeckoTerminalTokenSummary {
+	const parseNumber = (value?: string | null): number | undefined => {
+		if (value === undefined || value === null) return undefined;
+		const parsed = Number.parseFloat(value);
+		return Number.isNaN(parsed) ? undefined : parsed;
+	};
+
 	const tokenData = response.data;
+	const tokenAttributes = tokenData.attributes;
 	const pools = (response.included ?? []).filter((item) => item.type === "pool") as GeckoTerminalPoolItem[];
 
 	let liquidityUsdTotal = 0;
@@ -251,32 +271,46 @@ export function buildGeckoTerminalTokenSummary(
 
 	for (const pool of pools) {
 		const attrs = pool.attributes;
-		if (attrs.reserve_in_usd) {
-			const reserve = parseFloat(attrs.reserve_in_usd);
-			if (!isNaN(reserve)) liquidityUsdTotal += reserve;
+		const reserve = parseNumber(attrs.reserve_in_usd);
+		if (reserve !== undefined) {
+			liquidityUsdTotal += reserve;
 		}
-		if (attrs.volume_usd?.h24) {
-			const volume = parseFloat(attrs.volume_usd.h24);
-			if (!isNaN(volume)) volume24hTotal += volume;
+
+		const volume = parseNumber(attrs.volume_usd?.h24);
+		if (volume !== undefined) {
+			volume24hTotal += volume;
 		}
+
 		if (attrs.transactions?.h24) {
 			buys24h += attrs.transactions.h24.buys ?? 0;
 			sells24h += attrs.transactions.h24.sells ?? 0;
 		}
 	}
 
-	// Find primary pool (highest liquidity)
-	const primaryPool = [...pools]
-		.sort((a, b) => {
-			const aReserve = parseFloat(a.attributes.reserve_in_usd ?? "0");
-			const bReserve = parseFloat(b.attributes.reserve_in_usd ?? "0");
+	if (pools.length === 0) {
+		const reserveFallback = parseNumber(tokenAttributes.total_reserve_in_usd);
+		if (reserveFallback !== undefined) {
+			liquidityUsdTotal = reserveFallback;
+		}
+
+		const volumeFallback = parseNumber(tokenAttributes.volume_usd?.h24);
+		if (volumeFallback !== undefined) {
+			volume24hTotal = volumeFallback;
+		}
+	}
+
+	const primaryPool = pools.length
+		? [...pools].sort((a, b) => {
+			const aReserve = parseNumber(a.attributes.reserve_in_usd) ?? 0;
+			const bReserve = parseNumber(b.attributes.reserve_in_usd) ?? 0;
 			return bReserve - aReserve;
-		})[0];
+		})[0]
+		: undefined;
 
 	return {
 		tokenAddress,
-		tokenName: tokenData.attributes.name,
-		tokenSymbol: tokenData.attributes.symbol,
+		tokenName: tokenAttributes.name,
+		tokenSymbol: tokenAttributes.symbol,
 		network,
 		numPools: pools.length,
 		liquidityUsdTotal,
@@ -284,14 +318,14 @@ export function buildGeckoTerminalTokenSummary(
 		transactions24h: { buys: buys24h, sells: sells24h },
 		primaryPool: primaryPool
 			? {
-					poolAddress: primaryPool.attributes.address,
-					baseToken: primaryPool.attributes.base_token,
-					quoteToken: primaryPool.attributes.quote_token,
-					priceUsd: primaryPool.attributes.fdv_usd,
-					liquidityUsd: primaryPool.attributes.reserve_in_usd ? parseFloat(primaryPool.attributes.reserve_in_usd) : undefined,
-					fdv: primaryPool.attributes.fdv_usd ? parseFloat(primaryPool.attributes.fdv_usd) : undefined,
-					marketCap: primaryPool.attributes.market_cap_usd ? parseFloat(primaryPool.attributes.market_cap_usd) : undefined,
-				}
+				poolAddress: primaryPool.attributes.address,
+				baseToken: primaryPool.attributes.base_token,
+				quoteToken: primaryPool.attributes.quote_token,
+				priceUsd: primaryPool.attributes.base_token_price_usd,
+				liquidityUsd: parseNumber(primaryPool.attributes.reserve_in_usd),
+				fdv: parseNumber(primaryPool.attributes.fdv_usd),
+				marketCap: parseNumber(primaryPool.attributes.market_cap_usd),
+			}
 			: undefined,
 	};
 }
