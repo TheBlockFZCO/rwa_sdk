@@ -268,6 +268,7 @@ import { writeFileSync } from "fs";
 import { resolve } from "path";
 
 const LLAMA_PROTOCOLS_OUTPUT = resolve(process.cwd(), "defillama_protocols.json");
+const STABLECOINS_OUTPUT = resolve(process.cwd(), "stablecoins.json");
 
 async function runDefiLlamaProtocolsSample() {
   const llama = new DefiLlamaClient({ timeoutMs: 20_000, retries: 2 });
@@ -291,6 +292,23 @@ async function runDefiLlamaProtocolsSample() {
 
     console.log(`[DefiLlama] Protocols saved to ${LLAMA_PROTOCOLS_OUTPUT} (count: ${protocols.length})`);
     console.dir(protocols[0], { depth: null });
+
+		const stablecoins = await llama.getStablecoins();
+		writeFileSync(
+			STABLECOINS_OUTPUT,
+			JSON.stringify(
+				{
+					request: { path: "https://stablecoins.llama.fi/stablecoins" },
+					count: Array.isArray((stablecoins as any).peggedAssets) ? (stablecoins as any).peggedAssets.length : undefined,
+					preview: Array.isArray((stablecoins as any).peggedAssets) ? (stablecoins as any).peggedAssets.slice(0, 10) : undefined,
+					raw: stablecoins,
+				},
+				null,
+				2,
+			),
+			"utf8",
+		);
+		console.log(`[Stablecoins] Data saved to ${STABLECOINS_OUTPUT}`);
   } catch (e) {
     console.error(`[DefiLlama] Error while fetching /protocols:`, e);
   }

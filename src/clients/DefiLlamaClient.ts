@@ -1,6 +1,8 @@
 export interface DefiLlamaClientConfig {
 	/** Optionally override base URL, defaults to DefiLlama API */
 	baseUrl?: string;
+	/** Optionally override Stablecoins API base URL (default: https://stablecoins.llama.fi) */
+	stablecoinsBaseUrl?: string;
 	/** Request timeout in ms (default: 15_000) */
 	timeoutMs?: number;
 	/** Number of retries on transient failures (default: 2) */
@@ -34,13 +36,44 @@ export interface DefiLlamaProtocol {
 	[key: string]: unknown;
 }
 
+/**
+ * Minimal typing for https://stablecoins.llama.fi/stablecoins
+ */
+export interface LlamaStablecoinsResponse {
+	peggedAssets: LlamaPeggedAsset[];
+	[key: string]: unknown;
+}
+
+export interface LlamaPeggedAsset {
+	id: string;
+	name: string;
+	symbol: string;
+	gecko_id?: string | null;
+	pegType?: string;
+	priceSource?: string | null;
+	pegMechanism?: string;
+	chains?: string[];
+	price?: number | null;
+
+	// very large nested objects in the response; keep loose typing for compatibility
+	circulating?: Record<string, number>;
+	circulatingPrevDay?: Record<string, number>;
+	circulatingPrevWeek?: Record<string, number>;
+	circulatingPrevMonth?: Record<string, number>;
+	chainCirculating?: Record<string, unknown>;
+
+	[key: string]: unknown;
+}
+
 export class DefiLlamaClient {
 	private readonly baseUrl: string;
+	private readonly stablecoinsBaseUrl: string;
 	private readonly timeoutMs: number;
 	private readonly retries: number;
 
 	constructor(config: DefiLlamaClientConfig = {}) {
 		this.baseUrl = (config.baseUrl ?? "https://api.llama.fi").replace(/\/$/, "");
+		this.stablecoinsBaseUrl = (config.stablecoinsBaseUrl ?? "https://stablecoins.llama.fi").replace(/\/$/, "");
 		this.timeoutMs = config.timeoutMs ?? 15_000;
 		this.retries = config.retries ?? 2;
 	}
@@ -54,8 +87,21 @@ export class DefiLlamaClient {
 		return data as DefiLlamaProtocol[];
 	}
 
+	/** GET https://stablecoins.llama.fi/stablecoins */
+	public async getStablecoins(): Promise<LlamaStablecoinsResponse> {
+		const data = await this.requestFrom<LlamaStablecoinsResponse>(this.stablecoinsBaseUrl, `/stablecoins`);
+		if (!data || typeof data !== "object" || !Array.isArray((data as any).peggedAssets)) {
+			throw new Error("Stablecoins /stablecoins: expected an object with peggedAssets[]");
+		}
+		return data;
+	}
+
 	private async request<T>(path: string): Promise<T> {
-		const url = `${this.baseUrl}${path}`;
+		return await this.requestFrom<T>(this.baseUrl, path);
+	}
+
+	private async requestFrom<T>(baseUrl: string, path: string): Promise<T> {
+		const url = `${baseUrl}${path}`;
 		let lastError: unknown = undefined;
 
 		for (let attempt = 0; attempt <= this.retries; attempt++) {
@@ -85,7 +131,7 @@ export class DefiLlamaClient {
 			}
 		}
 
-		throw lastError instanceof Error ? lastError : new Error("DefiLlama request failed");
+		throw lastError instanceof Error ? lastError : new Error("Llama request failed");
 	}
 }
 
